@@ -2,7 +2,9 @@
 
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
-
+alert(
+  "For demo use: Username1: KZ; Password: 1111; Username2: JD; Password: 2222;"
+);
 // DATA
 const account1 = {
   owner: "Katherine Zhang",
