@@ -55,6 +55,8 @@ const labelSumOut = document.querySelector(".summary__value--out");
 const labelSumInterest = document.querySelector(".summary__value--interest");
 const labelTimer = document.querySelector(".timer");
 
+const demo = document.querySelector(".demo");
+
 const containerApp = document.querySelector(".app");
 const appWrong = document.querySelector(".appWrong");
 const containerMovements = document.querySelector(".movements");
@@ -208,7 +210,7 @@ btnLogin.addEventListener("click", function (e) {
       currentAccount.owner.split(" ")[0]
     }`;
     containerApp.style.opacity = 100;
-
+    demo.style.opacity = 0;
     const displayTime = () => {
       const now = new Date();
       const options = {
